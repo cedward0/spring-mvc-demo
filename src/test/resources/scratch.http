@@ -1,0 +1,96 @@
+GET http://localhost:6060/hplus/rest/products
+
+<> 2020-08-06T034808.200.json
+<> 2020-08-06T034754.200.json
+<> 2020-08-06T034742.200.json
+<> 2020-08-06T034647.200.json
+<> 2020-08-06T034007.200.json
+<> 2020-08-06T033933.400.html
+
+###
+
+GET http://localhost:6060/hplus/rest/product/?id=1
+
+###
+
+GET http://localhost:6060/hplus/rest/products/water
+
+###
+
+POST http://localhost:6060/hplus/rest/product/
+Content-Type: application/json
+
+{"id":1,"name":"product 1", "imagePath":"www.somewhere1.here"}
+
+<> 2020-08-06T034737.200.txt
+<> 2020-08-06T034428.415.html
+
+###
+
+POST http://localhost:6060/hplus/rest/product/
+Content-Type: application/json
+
+{"name":"product 2", "imagePath":"www.somewhere1.here"}
+
+<> 2020-08-06T034749.200.txt
+
+###
+
+POST http://localhost:6060/hplus/rest/product/
+Content-Type: application/json
+
+{"name":"product 3", "imagePath":"www.path.there"}
+
+<> 2020-08-06T034804.200.txt
+
+###
+
+POST http://localhost:6060/hplus/rest/product/
+Content-Type: application/json
+
+{"name":"water peach", "imagePath":"images/mineralwater-peach.jpg"}
+
+<> 2020-08-06T034826.200.txt
+<> 2020-08-06T034804.200.txt
+
+###
+
+POST http://localhost:6060/hplus/rest/product/
+Content-Type: application/json
+
+{"name":"mineral water blueberry", "imagePath":"images/mineralwater-blueberry.jpg"}
+
+<> 2020-08-06T034826.200.txt
+<> 2020-08-06T034804.200.txt
+
+###
+
+POST http://localhost:6060/hplus/rest/product/
+Content-Type: application/json
+
+{"name":"protein bar chocolate", "imagePath":"images/proteinbar-chocolate.jpg"}
+
+<> 2020-08-06T034826.200.txt
+<> 2020-08-06T034804.200.txt
+
+###
+
+POST http://localhost:6060/hplus/rest/product/
+Content-Type: application/json
+
+{"name":"vitamin B complex", "imagePath":"images/vitamin-bcomplex.jpg"}
+
+<> 2020-08-06T034826.200.txt
+<> 2020-08-06T034804.200.txt
+
+###
+
+POST http://localhost:6060/hplus/rest/product/
+Content-Type: application/json
+
+{"name":"Multi Vitamin", "imagePath":"images/vitamin-multi.jpg"}
+
+<> 2020-08-06T034826.200.txt
+<> 2020-08-06T034804.200.txt
+
+###
