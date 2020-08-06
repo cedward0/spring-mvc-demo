@@ -16,7 +16,8 @@ public class ApplicationExceptionHandler {
     }
 
     @ExceptionHandler(LoginFailureException.class)
-    public ResponseEntity handleLoginFailure(LoginFailureException ex) {
+    public ResponseEntity<String> handleLoginFailure(LoginFailureException ex) {
         return ResponseEntity.status(HttpStatus.FORBIDDEN).body(ex.getMessage());
     }
+
 }

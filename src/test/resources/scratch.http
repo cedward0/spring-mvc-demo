@@ -94,3 +94,19 @@ Content-Type: application/json
 <> 2020-08-06T034804.200.txt
 
 ###
+
+POST http://localhost:6060/hplus/rest/loginuser/
+Content-Type: application/json
+
+{"username":"craeds", "password":"sadasdsadS"}
+
+
+###
+
+POST http://localhost:6060/hplus/rest/loginuser/
+Content-Type: application/json
+
+{"username":"admin", "password":"admin"}
+
+
+###
